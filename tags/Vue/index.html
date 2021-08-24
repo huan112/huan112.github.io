@@ -43,6 +43,7 @@
    </script>
 
 
+
     <script>(function (i, s, o, g, r, a, m) {
         i['DaoVoiceObject'] = r;
         i[r] = i[r] ||
@@ -640,28 +641,10 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <div class="tag-chips">
                 
                 
-                <a href="/tags/VMware/" title="VMware: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="VMware" style="background-color: #F9EBEA;">VMware
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/CentOS/" title="CentOS: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="CentOS" style="background-color: #F5EEF8;">CentOS
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/Github/" title="Github: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Github" style="background-color: #D5F5E3;">Github
+                            data-tagname="Github" style="background-color: #F9EBEA;">Github
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -670,7 +653,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 <a href="/tags/Hexo/" title="Hexo: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Hexo" style="background-color: #E8F8F5;">Hexo
+                            data-tagname="Hexo" style="background-color: #F5EEF8;">Hexo
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -679,7 +662,25 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 <a href="/tags/博客搭建/" title="博客搭建: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="博客搭建" style="background-color: #FEF9E7;">博客搭建
+                            data-tagname="博客搭建" style="background-color: #D5F5E3;">博客搭建
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/VMware/" title="VMware: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="VMware" style="background-color: #E8F8F5;">VMware
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/CentOS/" title="CentOS: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="CentOS" style="background-color: #FEF9E7;">CentOS
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -893,7 +894,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2020, 01, 01, 00, 00, 00); //北京时间2018-2-13 00:00:00
+        var t1 = Date.UTC(2021, 08, 20, 00, 00, 00); //北京时间2018-2-13 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
@@ -976,14 +977,14 @@ $(function () {
    
    <!--鼠标点击礼花特效-->
    <script type="text/javascript" src="/js/lihua.js"></script> 
-	
-   <!--动态线条背景-->
-   <script type="text/javascript"
-   color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
-   </script>
+
 
    <script async src =“ https://cdn.jsdelivr.net/npm/perfops-rom”> </ script>
-
+   
+	<!--动态线条背景-->
+	<script type="text/javascript"
+	color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+	</script>
   <!--自定义看板娘-->
   <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
   <script src="/live2d-widget/autoload.js"></script>
